@@ -1,12 +1,12 @@
-# customer-churn-retention-analysis
-Customer Churn &amp; Retention Analysis using Power BI and DAX
-
-
 # Customer Churn & Retention Analysis Dashboard
 
 ## Project Overview
 
 Developed an interactive Power BI dashboard to analyze customer churn and retention patterns across contract types, customer tenure, payment methods, and internet service categories.
+
+## Objective
+
+The objective of this project is to understand customer churn and retention patterns and present key findings through an interactive business intelligence dashboard.
 
 ## Tools Used
 
@@ -16,35 +16,62 @@ Developed an interactive Power BI dashboard to analyze customer churn and retent
 
 ## Dataset
 
-Telco Customer Churn Dataset containing customer information, services, billing details, contract types, and churn status.
+The project uses the Telco Customer Churn dataset containing 7,043 customer records.
 
-## Dashboard Features
+The dataset includes:
 
-- Total Customers
-- Churned Customers
-- Churn Rate
-- Retained Customers
-- Retention Rate
-- Churn Rate by Contract Type
-- Churn Rate by Customer Tenure
-- Churn Rate by Payment Method
-- Churn Rate by Internet Service
-- Interactive filters for Contract, Internet Service, and Payment Method
+- Customer tenure
+- Contract type
+- Payment method
+- Internet service
+- Monthly charges
+- Total charges
+- Churn status
+
+## Key Metrics
+
+| Metric | Value |
+|---|---:|
+| Total Customers | 7,043 |
+| Churned Customers | 1,869 |
+| Churn Rate | 26.54% |
+| Retained Customers | 5,174 |
+| Retention Rate | 73.46% |
+
+## Dashboard Analysis
+
+The dashboard analyzes churn rate across:
+
+- Contract Type
+- Customer Tenure
+- Payment Method
+- Internet Service
+
+Interactive filters are provided for:
+
+- Contract
+- Internet Service
+- Payment Method
 
 ## Key Insights
 
 - Overall customer churn rate is 26.54%.
-- Month-to-month contract customers have a substantially higher churn rate than customers on one-year and two-year contracts.
-- Churn rate varies across different customer tenure groups.
+- Month-to-month customers have an observed churn rate of approximately 42.71%.
+- One-year contract customers have an observed churn rate of approximately 11.27%.
+- Two-year contract customers have an observed churn rate of approximately 2.83%.
+- Churn rates vary across customer tenure groups.
 - Churn rates differ across payment methods.
-- Churn rates also vary across internet service categories.
+- Churn rates also differ across internet service categories.
 
 ## Project Files
 
 - `Dashboard.png` – Power BI dashboard screenshot
 - `CustomerChurnDashboard.pbix` – Power BI dashboard file
 - `insights.pdf` – Detailed project insights
+- `README.md` – Project documentation
 
 ## Conclusion
 
-This project demonstrates the use of Power BI and DAX to analyze customer churn and retention patterns and present the findings through an interactive business intelligence dashboard.
+This project demonstrates how Power BI and DAX can be used to analyze customer churn and retention patterns and present the results through an interactive dashboard.
+
+The analysis provides a clear comparison of churn across different customer segments and can support further investigation into customer retention patterns.
